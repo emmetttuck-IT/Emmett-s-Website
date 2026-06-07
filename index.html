@@ -1,7 +1,27 @@
----
-layout: default
-title: Emmett Tuck — IT & Cybersecurity
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emmett — IT & Cybersecurity</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAV ─────────────────────────────────────────── -->
+  <nav>
+    <span class="nav-logo">e.</span>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
 
   <!-- ── HERO ─────────────────────────────────────────── -->
   <header class="hero">
@@ -215,33 +235,9 @@ title: Emmett Tuck — IT & Cybersecurity
     </div>
   </section>
 
-  <!-- ── BLOG TEASER ──────────────────────────────────── -->
-  <section id="blog" class="section blog-teaser">
-    <div class="section-label">05 / Blog</div>
-    <div class="blog-teaser-header">
-      <h2>From the lab notebook</h2>
-      <a href="/blog/" class="btn-ghost">All posts →</a>
-    </div>
-    <div class="blog-teaser-grid">
-      {% for post in site.posts limit:3 %}
-      <article class="blog-teaser-card">
-        <div class="blog-teaser-meta">
-          <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-          {% if post.tags.first %}
-          <span class="post-tag-pill">{{ post.tags.first }}</span>
-          {% endif %}
-        </div>
-        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-        <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
-        <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
-      </article>
-      {% endfor %}
-    </div>
-  </section>
-
   <!-- ── CONTACT ─────────────────────────────────────────── -->
   <section id="contact" class="section contact">
-    <div class="section-label">06 / Contact</div>
+    <div class="section-label">05 / Contact</div>
     <div class="contact-inner">
       <h2>Let's talk</h2>
       <p>Whether you're looking for a sysadmin, a junior security analyst, or just want to geek out about home lab setups — my inbox is open.</p>
@@ -261,3 +257,12 @@ title: Emmett Tuck — IT & Cybersecurity
       </div>
     </div>
   </section>
+
+  <!-- ── FOOTER ─────────────────────────────────────────── -->
+  <footer>
+    <span>© 2025 Emmett</span>
+    <span>Built with HTML &amp; CSS · Hosted on GitHub Pages</span>
+  </footer>
+
+</body>
+</html>
