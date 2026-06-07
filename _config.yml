@@ -1,0 +1,21 @@
+title: Emmett Tuck
+description: IT Systems Administrator & Blue Team Security Analyst
+url: "https://emmetttuck.com"
+baseurl: ""
+
+author:
+  name: Emmett Tuck
+  email: emmetttuck@hotmail.com
+
+permalink: /blog/:year/:month/:day/:title/
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

@@ -1,8 +1,3 @@
----
-layout: default
-title: Emmett Tuck — IT & Cybersecurity
----
-
   <!-- ── HERO ─────────────────────────────────────────── -->
   <header class="hero">
     <div class="hero-grain"></div>
@@ -223,19 +218,7 @@ title: Emmett Tuck — IT & Cybersecurity
       <a href="/blog/" class="btn-ghost">All posts →</a>
     </div>
     <div class="blog-teaser-grid">
-      {% for post in site.posts limit:3 %}
-      <article class="blog-teaser-card">
-        <div class="blog-teaser-meta">
-          <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-          {% if post.tags.first %}
-          <span class="post-tag-pill">{{ post.tags.first }}</span>
-          {% endif %}
-        </div>
-        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-        <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
-        <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
-      </article>
-      {% endfor %}
+      
     </div>
   </section>
 
