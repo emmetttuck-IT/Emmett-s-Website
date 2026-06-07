@@ -1,1 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-06-06T21:20:44-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Emmett Tuck</title><subtitle>IT Systems Administrator &amp; Blue Team Security Analyst</subtitle><author><name>Emmett Tuck</name><email>emmetttuck@hotmail.com</email></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-06-06T21:29:53-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Emmett Tuck</title><subtitle>IT Systems Administrator &amp; Blue Team Security Analyst</subtitle><author><name>Emmett Tuck</name><email>emmetttuck@hotmail.com</email></author><entry><title type="html">Welcome to My Blog</title><link href="http://localhost:4000/blog/2025/06/06/welcome/" rel="alternate" type="text/html" title="Welcome to My Blog" /><published>2025-06-06T00:00:00-07:00</published><updated>2025-06-06T00:00:00-07:00</updated><id>http://localhost:4000/blog/2025/06/06/welcome</id><content type="html" xml:base="http://localhost:4000/blog/2025/06/06/welcome/"><![CDATA[<p>Welcome to my little corner of the internet.</p>
+
+<p>I’m Emmett — a recent CIS Administration grad working my way into the cybersecurity world, specifically Blue Team and defensive security. This blog is where I’ll document the things I’m building, breaking, and learning along the way.</p>
+
+<h2 id="what-to-expect-here">What to expect here</h2>
+
+<ul>
+  <li><strong>Home lab writeups</strong> — documenting my pfSense, Wazuh, and VM setups</li>
+  <li><strong>TryHackMe / CTF notes</strong> — working through challenges and writing up what I learned</li>
+  <li><strong>Cert study notes</strong> — currently working toward CompTIA Security+</li>
+  <li><strong>General IT stuff</strong> — anything interesting I run into day to day</li>
+</ul>
+
+<h2 id="why-bother-writing-it-down">Why bother writing it down?</h2>
+
+<p>Honestly, writing things out forces me to actually understand them. If I can explain it clearly, I know it. If I can’t, I have more work to do.</p>
+
+<p>It’s also a record for future me — I’ve lost count of how many times I’ve solved a problem, forgotten how I did it, and had to solve it again from scratch.</p>
+
+<p>If any of this ends up being useful to someone else, even better.</p>
+
+<p>More posts coming soon.</p>]]></content><author><name>Emmett Tuck</name><email>emmetttuck@hotmail.com</email></author><category term="general" /><category term="intro" /><summary type="html"><![CDATA[A place to document my journey through IT, cybersecurity, and home lab adventures.]]></summary></entry></feed>
