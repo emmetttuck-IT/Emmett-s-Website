@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emmett — IT & Cybersecurity</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAV ─────────────────────────────────────────── -->
+  <nav>
+    <span class="nav-logo">e.</span>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── HERO ─────────────────────────────────────────── -->
+  <header class="hero">
+    <div class="hero-grain"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Systems · Security · Solutions</p>
+      <h1>Hi, I'm <em>Emmett</em>.<br>I keep things running<br>& keep things safe.</h1>
+      <p class="hero-sub">IT Systems Administrator &amp; aspiring Blue Team Security Analyst based in Maple Ridge, BC.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">See My Work</a>
+        <a href="#contact" class="btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-decoration">
+      <div class="deco-ring ring-1"></div>
+      <div class="deco-ring ring-2"></div>
+      <div class="deco-ring ring-3"></div>
+      <div class="deco-tag">
+        <span class="tag-line">$ ping emmett.dev</span>
+        <span class="tag-line">PONG — 1ms</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── ABOUT ─────────────────────────────────────────── -->
+  <section id="about" class="section about">
+    <div class="section-label">01 / About</div>
+    <div class="about-grid">
+      <div class="about-text">
+        <h2>A little about me</h2>
+        <p>I hold a <strong>Computer Information Systems Administration Diploma</strong> and a genuine obsession with how systems tick — and how to defend them when things go sideways.</p>
+        <p>My background is in sysadmin work: networking, servers, infrastructure. But I've been pulling hard toward the security world, building out a home lab, exploring Blue Team tooling like <strong>Wazuh</strong> and <strong>Splunk</strong>, and working toward my first security certifications.</p>
+        <p>When I'm not in a terminal, I'm probably deep in a souls-like or tinkering with my desktop setup. I like things that reward patience and careful attention — which turns out to be good practice for both hobbies.</p>
+      </div>
+      <div class="about-aside">
+        <div class="about-card">
+          <div class="card-icon">🎓</div>
+          <p class="card-title">CIS Admin Diploma</p>
+          <p class="card-sub">Recent Graduate</p>
+        </div>
+        <div class="about-card">
+          <div class="card-icon">🛡️</div>
+          <p class="card-title">Blue Team Focus</p>
+          <p class="card-sub">SOC · SIEM · Detection</p>
+        </div>
+        <div class="about-card">
+          <div class="card-icon">🏠</div>
+          <p class="card-title">Home Lab</p>
+          <p class="card-sub">pfSense · Wazuh · VMs</p>
+        </div>
+        <div class="about-card">
+          <div class="card-icon">📍</div>
+          <p class="card-title">Maple Ridge, BC</p>
+          <p class="card-sub">Open to remote &amp; hybrid</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ─────────────────────────────────────────── -->
+  <section id="skills" class="section skills">
+    <div class="section-label">02 / Skills</div>
+    <h2>What I work with</h2>
+    <div class="skills-grid">
+
+      <div class="skill-group">
+        <h3>Systems & Infrastructure</h3>
+        <ul>
+          <li>Windows Server &amp; Active Directory</li>
+          <li>Linux (Ubuntu, Debian)</li>
+          <li>Virtualization (VMware, Hyper-V)</li>
+          <li>DNS, DHCP, Group Policy</li>
+          <li>Backup &amp; Disaster Recovery</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3>Networking</h3>
+        <ul>
+          <li>TCP/IP, Subnetting, VLANs</li>
+          <li>pfSense / OPNsense</li>
+          <li>Cisco CLI basics</li>
+          <li>VPN configuration</li>
+          <li>Wireshark / packet analysis</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3>Security (Blue Team)</h3>
+        <ul>
+          <li>Wazuh SIEM / XDR</li>
+          <li>Splunk (fundamentals)</li>
+          <li>Log analysis &amp; alerting</li>
+          <li>Vulnerability scanning</li>
+          <li>Incident response basics</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3>Tools & Other</h3>
+        <ul>
+          <li>PowerShell &amp; Bash scripting</li>
+          <li>Git &amp; GitHub</li>
+          <li>HTML / CSS</li>
+          <li>Microsoft 365 Admin</li>
+          <li>Ticketing &amp; documentation</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="certs-strip">
+      <p class="certs-label">Certifications &amp; In Progress</p>
+      <div class="certs-row">
+        <span class="cert-badge earned">CIS Admin Diploma</span>
+        <span class="cert-badge in-progress">CompTIA Security+ <em>in progress</em></span>
+        <span class="cert-badge in-progress">Google Cybersecurity Cert <em>in progress</em></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ─────────────────────────────────────────── -->
+  <section id="projects" class="section projects">
+    <div class="section-label">03 / Projects</div>
+    <h2>Things I've built</h2>
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <div class="project-header">
+          <span class="project-tag">Home Lab</span>
+          <div class="project-links">
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+        <h3>Blue Team Home Lab</h3>
+        <p>A virtualized security operations environment with pfSense as the perimeter firewall, Wazuh for SIEM/XDR, and simulated attack scenarios for detection tuning and log analysis practice.</p>
+        <div class="project-stack">
+          <span>pfSense</span><span>Wazuh</span><span>VMware</span><span>Ubuntu</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-header">
+          <span class="project-tag">Networking</span>
+          <div class="project-links">
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+        <h3>Segmented Home Network</h3>
+        <p>Designed and implemented a VLAN-segmented home network separating trusted devices, IoT, and a lab DMZ, with firewall rules, DNS filtering, and traffic monitoring configured from scratch.</p>
+        <div class="project-stack">
+          <span>pfSense</span><span>VLANs</span><span>DNS</span><span>Firewall Rules</span>
+        </div>
+      </article>
+
+      <article class="project-card featured">
+        <div class="project-header">
+          <span class="project-tag">Scripting</span>
+          <div class="project-links">
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+        <h3>AD User Provisioning Script</h3>
+        <p>PowerShell automation for onboarding/offboarding Active Directory users — handles group assignments, folder permissions, mailbox setup, and generates a summary report for IT records.</p>
+        <div class="project-stack">
+          <span>PowerShell</span><span>Active Directory</span><span>Exchange</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-header">
+          <span class="project-tag">Portfolio</span>
+          <div class="project-links">
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+        <h3>This Portfolio</h3>
+        <p>Built with plain HTML and CSS — no frameworks, no build tools. Focused on clean structure, semantic markup, and a design that feels personal rather than templated.</p>
+        <div class="project-stack">
+          <span>HTML</span><span>CSS</span><span>GitHub Pages</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE ─────────────────────────────────────────── -->
+  <section id="experience" class="section experience">
+    <div class="section-label">04 / Experience</div>
+    <h2>Where I've been</h2>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <p class="timeline-date">2023 – 2025</p>
+          <h3>CIS Administration Diploma</h3>
+          <p class="timeline-org">Your College / Institution Name</p>
+          <p>Studied systems administration, networking fundamentals, server management, and IT support. Graduated with a focus on practical lab work and real-world troubleshooting scenarios.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <p class="timeline-date">Add your experience</p>
+          <h3>Job Title or Role</h3>
+          <p class="timeline-org">Company or Project Name</p>
+          <p>Describe what you did here. Focus on outcomes and what you learned. Replace this with your actual work history or relevant volunteer/freelance experience.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <p class="timeline-date">Ongoing</p>
+          <h3>Self-Directed Lab &amp; Learning</h3>
+          <p class="timeline-org">Home Lab</p>
+          <p>Continuously expanding skills through hands-on home lab work, TryHackMe challenges, security certification prep, and following threat intelligence feeds and security research.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── CONTACT ─────────────────────────────────────────── -->
+  <section id="contact" class="section contact">
+    <div class="section-label">05 / Contact</div>
+    <div class="contact-inner">
+      <h2>Let's talk</h2>
+      <p>Whether you're looking for a sysadmin, a junior security analyst, or just want to geek out about home lab setups — my inbox is open.</p>
+      <div class="contact-links">
+        <a href="mailto:you@yourdomain.com" class="contact-link">
+          <span class="link-icon">✉</span>
+          <span>you@yourdomain.com</span>
+        </a>
+        <a href="https://github.com/yourusername" target="_blank" rel="noopener" class="contact-link">
+          <span class="link-icon">⌥</span>
+          <span>github.com/yourusername</span>
+        </a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener" class="contact-link">
+          <span class="link-icon">in</span>
+          <span>linkedin.com/in/yourprofile</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────────────── -->
+  <footer>
+    <span>© 2025 Emmett</span>
+    <span>Built with HTML &amp; CSS · Hosted on GitHub Pages</span>
+  </footer>
+
+</body>
+</html>
